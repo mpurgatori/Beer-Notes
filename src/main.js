@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './app.vue'
-import logIn from './components/log-in.vue';
+import signIn from './components/sign-in.vue';
 
 Vue.use(VueRouter);
 
@@ -9,10 +9,10 @@ import VueAxios from 'vue-axios';
 import axios from 'axios';
 
 const routes = [
-  {
-        name: 'logIn',
+    {
+        name: 'signIn',
         path: '/',
-        component: logIn
+        component: signIn
     }
 ];
 

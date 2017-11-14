@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>Create An Item</h1>
+    <h1>Sign In or Sign up</h1>
     <form>
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <label>Item Name:</label>
+            <label>Email:</label>
             <input type="text" class="form-control" v-model="item.name">
           </div>
         </div>
@@ -13,13 +13,13 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <label>Item Price:</label>
+              <label>Password:</label>
               <input type="text" class="form-control col-md-6" v-model="item.price">
             </div>
           </div>
         </div><br />
         <div class="form-group">
-          <button class="btn btn-primary">Add Item</button>
+          <button class="btn btn-primary">Sign In</button>
         </div>
     </form>
   </div>
