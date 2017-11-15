@@ -22,6 +22,7 @@
           <button class="btn btn-primary">Sign In</button>
         </div>
     </form>
+    <div id='firebaseui-auth-container'></div>
   </div>
 </template>
 <script>

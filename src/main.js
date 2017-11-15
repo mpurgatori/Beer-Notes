@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import App from './app.vue'
 import signIn from './components/sign-in.vue';
 
+import {firebase, firebaseui} from './js/firebase'
+
 Vue.use(VueRouter);
 
 import VueAxios from 'vue-axios';
